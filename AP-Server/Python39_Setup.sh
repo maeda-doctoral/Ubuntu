@@ -13,6 +13,9 @@ sudo apt-get install -y mysql-server libpango-1.0-0 libpangoft2-1.0-0
 
 sudo apt-get install -y python3.9-dev python3-pip python3.9-distutils
 curl -sS https://bootstrap.pypa.io/get-pip.py | python3.9
+
+mv ~/.local/bin/pip ~/.local/bin/pip_ && mv ~/.local/bin/pip3.9 ~/.local/bin/pip
+
 pip install --upgrade pip
 
 echo "Python 3.9 installation complete"
